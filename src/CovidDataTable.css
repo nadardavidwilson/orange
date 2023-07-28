@@ -1,0 +1,41 @@
+/* CovidDataTable.css */
+
+/* Style for the table container */
+.covid-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Style for the table header row */
+  .covid-table thead th {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Style for the table body rows */
+  .covid-table tbody td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Alternate row color */
+  .covid-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Hover effect for rows */
+  .covid-table tbody tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  /* Fixed header */
+  .covid-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
+  
